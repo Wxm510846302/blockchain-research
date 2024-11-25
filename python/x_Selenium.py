@@ -49,7 +49,7 @@ KEYWORDS = [
 LAST_TWEETS = {username: None for username in USERNAMES}  # 存储推文ID而非文本
 PUSHED_TWEETS_FILE = "pushed_tweets.json"  # 存储已推送推文的文件
 # Telegram 配置
-TELEGRAM_TOKEN = "7550030741:AAHR2J4XU2JQ0vIzTVWyp9k8eucitc_3OZ4"
+TELEGRAM_TOKEN = ""
 CHAT_ID = "6320366185"
 bot = telegram.Bot(token=TELEGRAM_TOKEN)
 # 指定 Chrome 配置文件路径

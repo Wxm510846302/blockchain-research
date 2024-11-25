@@ -6,7 +6,7 @@ import os
 import asyncio
 
 # Twitter API 配置
-BEARER_TOKEN = 'AAAAAAAAAAAAAAAAAAAAAP5KxAEAAAAAEpZkF5zfuHJe71uYjiw1LARm1s4%3DYBl8VWrIN6okUdX0n3MXXqvXQDnqgB1izCPtEJxn9EdR2TY0oZ'
+BEARER_TOKEN = ''
 HEADERS = {
     "Authorization": f"Bearer {BEARER_TOKEN}"
 }
@@ -16,7 +16,7 @@ USERNAMES = ["realDonaldTrump","elonmusk","laobaishare", "Danny_Crypton", "DefiW
 LAST_TWEET_IDS = {username: None for username in USERNAMES}
 
 # Telegram 配置
-TELEGRAM_TOKEN = "7550030741:AAHR2J4XU2JQ0vIzTVWyp9k8eucitc_3OZ4"
+TELEGRAM_TOKEN = ""
 CHAT_ID = "6320366185"
 bot = telegram.Bot(token=TELEGRAM_TOKEN)
 
